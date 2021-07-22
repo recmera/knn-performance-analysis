@@ -11,29 +11,19 @@
 Tarea grupal de la asignatura *Computación científica con python* INFO147 de la carrera Ingenieria Civil Informatica.
 
 
-### Instrucciones específicas
-
-El objetivo de esta actividad es entrenar y evaluar una red neuronal profunda para clasificar automáticamente el prendas de vestir a partir de imágenes. Usted entrenará este modelo usando un conjunto de 70,000 imágenes con 10 categorías de prendas conocido como Fashion-MNIST
-
-En esta tarea ustedes deben diseñar, entrenar y evaluar un modelo de red convolucional para resolver el problema anteriormente presentado
-
-Implemente una red convolucional con arquitectura Lenet5
-Diseñe e implemente una nueva arquitectura de red convolucional que proponga mejoras sobre Lenet5
-Para cada arquitectura experimente con distintos optimizadores (SGD, RMSProp y Adam), tasa de aprendizaje y tamaño de batch de entrenamiento
-Indicaciones.
-
 ### Indicaciones
 
-Separe las imágenes del conjunto de entrenamiento en dos subconjuntos para ajustar los parámetros (entrenamiento propiamente tal) y evitar sobreajuste (validación), respectivamente.
+- Considere la implementación "ingenua" del algoritmo KNN que se adjunta a esta tarea con los parámetros $p$ y $k$ por defecto
+  - Use la función adjunta create_data para crear un conjunto de N=1000 datos-
+  - Realice un profiling completo de la función KNN usando las magias timeit, prun y lprun
+  - Reporte sus resultados y comente sobre los cuellos de botella del algoritmo
+-  Implemente una nueva versión de la función KNN
+  - Utilice Cython con tipos fijos, vistas de arreglos y funciones de la librería estándar matemática de C
+  - Muestre que obtiene el mismo resultado que la versión original
+  - Grafique el speed-up de su nueva función con respecto a la implementación "inocente" original para $N=[10, 50, 100, 500, 1000, 5000, 10000]$
+- Usando la nueva versión de KNN y el conjunto de N=1000 datos creados con create_data realice una validación cruzada en el conjunto $E$ para encontrar el mejor valor de los parámetros $k$ y $p$
+-  Evalue su mejor clasificador en el conjunto $T$ y haga un reporte completo de resultados que incluya curvas ROC y las métricas vistas en el curso. Muestre una gráfica de la frontera de decisión de su clasificador en el rango $[(-2,2), (-2,2)]$
 
-Utilice early stopping, decida experimentalmente la paciencia y el número de épocas de entrenamiento.
-
-Implemente un esquema de aumentación aleatoria de datos para el conjunto de entrenamiento, considere al menos recortes aleatorios. Compare contra la opción de no realizar aumentación aleatoria.
-
-Compare sus modelos y entrenamientos en base a las curvas de aprendizaje y acompañe sus figuras con observaciones.
-
-Evalue la capacidad de generalización de la mejor Lenet5 y red propia midiendo su rendimiento en el subconjunto de prueba. Utilice matrices de confusión y reportes de clasificación (precisión, recall y f1-score). ¿Cuáles clases son más difíciles de clasificar? ¿Cuáles clases tienden a confudirse entre sí?
-Reporte el proceso, justifique sus decisiones y discuta sus resultados.
 
 ## Caracteristicas del entorno
 

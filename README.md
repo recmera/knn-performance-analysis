@@ -4,7 +4,7 @@
 ## Integrantes
 - **Ricardo Coronado**, ricardo dot coronado at alumnos dot uach dot cl
 - **Eduardo Hopperdietzel**, eduardo dot hopperdietzel at alumnos dot uach dot cl
-- **Diego Sandoval**, diego dot sandoval at alumnos dot uach dot cl
+- **Diego Sandoval**, diego dot sandoval01 at alumnos dot uach dot cl
 
 ## Descripcion
 

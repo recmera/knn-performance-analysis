@@ -17,7 +17,7 @@ Tarea grupal de la asignatura *Computación científica con python* INFO147 de l
   - Use la función adjunta create_data para crear un conjunto de N=1000 datos-
   - Realice un profiling completo de la función KNN usando las magias timeit, prun y lprun
   - Reporte sus resultados y comente sobre los cuellos de botella del algoritmo
--  Implemente una nueva versión de la función KNN
+- Implemente una nueva versión de la función KNN
   - Utilice Cython con tipos fijos, vistas de arreglos y funciones de la librería estándar matemática de C
   - Muestre que obtiene el mismo resultado que la versión original
   - Grafique el speed-up de su nueva función con respecto a la implementación "inocente" original para $N=[10, 50, 100, 500, 1000, 5000, 10000]$

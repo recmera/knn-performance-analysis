@@ -2,9 +2,9 @@
 
 
 ## Integrantes
-- **Ricardo Coronado** ricardo dot coronado at alumnos dot uach dot cl
-- **Eduardo Hopperdietzel** eduardo dot hopperdietzel at alumnos dot uach dot cl
-- **Diego Sandoval** diego dot sandoval at alumnos dot uach dot cl
+- **Ricardo Coronado**, ricardo dot coronado at alumnos dot uach dot cl
+- **Eduardo Hopperdietzel**, eduardo dot hopperdietzel at alumnos dot uach dot cl
+- **Diego Sandoval**, diego dot sandoval at alumnos dot uach dot cl
 
 ## Descripcion
 
@@ -25,11 +25,15 @@ Indicaciones.
 ### Indicaciones
 
 Separe las imágenes del conjunto de entrenamiento en dos subconjuntos para ajustar los parámetros (entrenamiento propiamente tal) y evitar sobreajuste (validación), respectivamente.
-Utilice early stopping, decida experimentalmente la paciencia y el número de épocas de entrenamiento
-Implemente un esquema de aumentación aleatoria de datos para el conjunto de entrenamiento, considere al menos recortes aleatorios. Compare contra la opción de no realizar aumentación aleatoria
-Compare sus modelos y entrenamientos en base a las curvas de aprendizaje y acompañe sus figuras con observaciones
+
+Utilice early stopping, decida experimentalmente la paciencia y el número de épocas de entrenamiento.
+
+Implemente un esquema de aumentación aleatoria de datos para el conjunto de entrenamiento, considere al menos recortes aleatorios. Compare contra la opción de no realizar aumentación aleatoria.
+
+Compare sus modelos y entrenamientos en base a las curvas de aprendizaje y acompañe sus figuras con observaciones.
+
 Evalue la capacidad de generalización de la mejor Lenet5 y red propia midiendo su rendimiento en el subconjunto de prueba. Utilice matrices de confusión y reportes de clasificación (precisión, recall y f1-score). ¿Cuáles clases son más difíciles de clasificar? ¿Cuáles clases tienden a confudirse entre sí?
-Reporte el proceso, justifique sus decisiones y discuta sus resultados
+Reporte el proceso, justifique sus decisiones y discuta sus resultados.
 
 ## Caracteristicas del entorno
 
